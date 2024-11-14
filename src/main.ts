@@ -303,4 +303,4 @@ class ImageEditorHelper {
 
 }
 
-ImageEditorHelper.currentImageEditor = ImageEditorHelper.createImageEditor(946 * 1.3, 620 * 1.2, './basic.jpg');
+ImageEditorHelper.currentImageEditor = ImageEditorHelper.createImageEditor(946 * 1.3, 620 * 1.2, './assets/basic.jpg');
