@@ -17,9 +17,12 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/leehyoo-Bob/online-image-editor.git -b gh-pages"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "typescript": "^5.4.5",
     "vite": "^5.4.8",
     "vite-plugin-copy": "^0.1.6",
