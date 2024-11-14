@@ -530,4 +530,4 @@ void main() {
         cursor: e-resize;
       }
 
-    `)),document.head.appendChild(g),{topResizer:n,leftResizer:o,bottomResizer:h,rightResizer:c}}}p(Ti,"currentImageEditor");Ti.currentImageEditor=Ti.createImageEditor(946*1.3,620*1.2,"/basic.jpg");
+    `)),document.head.appendChild(g),{topResizer:n,leftResizer:o,bottomResizer:h,rightResizer:c}}}p(Ti,"currentImageEditor");Ti.currentImageEditor=Ti.createImageEditor(946*1.3,620*1.2,"./basic.jpg");
