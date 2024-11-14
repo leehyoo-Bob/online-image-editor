@@ -29,10 +29,10 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      - name: Install AND Build dependencies
-        run: ｜
-          npm install
-          npm run build
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
